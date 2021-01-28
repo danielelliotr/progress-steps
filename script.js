@@ -10,7 +10,7 @@ next.addEventListener('click', () => {
   currentActive++
 
   if (currentActive > circles.length) {
-    currentActive = circles
+    currentActive = circles.length
   }
 
   update()
